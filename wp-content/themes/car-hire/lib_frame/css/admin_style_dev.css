@@ -1,0 +1,405 @@
+/*---:[ theme options panel ]:---*/
+.bizzadmin { margin:0 20px 0 10px; position:relative }
+.bizzadmin .fl { float: left }
+.bizzadmin .fr { float: right }
+.bizzadmin .themeinfo { margin:0 0 15px 0; float:left; }
+
+.bizzalert p { line-height:23px }
+.bizzadmin .save-popup { position:absolute; background:#FFEEB2; border:1px solid #FFAA00; color:#000000; padding:30px 60px; width:200px; height:25px; font-size:18px; text-align:center; display:none; z-index:3; }
+.bizzadmin .loading-popup { position:absolute; background:#FFEEB2 url(../images/ajax-loader.gif) no-repeat center; border:1px solid #FFAA00; color:#000000; padding:30px 60px; width:200px; height:25px; font-size:18px; text-align:center; display:none; z-index:3; }
+.bizzadmin a.where { font:normal 11px Tahoma; margin:0 0 0 5px; padding:0; border:0; text-decoration:none }
+.bizzadmin #sortme .list_item:hover, .bizzadmin #sortme .table-row:hover { background:#f1f1f1; cursor: move }
+
+.bizzadmin #icon-bizzthemes { background: url('../images/bizzthemes-icon-32.png') no-repeat; }
+.bizzadmin h2 { margin:0 0 20px 0; position: relative }
+.bizzadmin .switch { display: block; margin:30px 0 20px 0; padding:0 }
+.bizzadmin a#master_switch { font:normal 16px Georgia; background:#F7F7F7; color:#000000; margin:0 0 10px 0; padding:10px 15px 10px 35px; border:1px solid #E3E3E3; position:relative; text-decoration: none }
+.bizzadmin a#master_switch.active{ background:#ffffff; border:1px solid #A5A5A5 }
+.bizzadmin a#master_switch:hover{ background:#ffffff }
+.bizzadmin a#master_switch span { position:absolute; background:transparent url(../images/toggle-pos.png) no-repeat 0 bottom; width:6px; height:11px; top:13px; left:15px; padding:0 0 0 5px; margin:0 }
+.bizzadmin a#master_switch span.neg { color:#ffffff; background:transparent url(../images/toggle-neg.png) no-repeat 0 bottom; width:11px; height:6px; padding:3px 0 0 0 }
+.bizzadmin a#master_switch span:hover { color:#ffffff }
+.bizzadmin h2 a.nav-tab { z-index: 2; background: #f8f8f8; color: #bbb }
+.bizzadmin h2 a.nav-tab:hover { color: #D54E21; }
+.bizzadmin h2 a.nav-tab-active { background: #fff; color: #000 }
+.bizzadmin h2 a.dropdown-toggle.active { color: #fff; background: #CCC; background: rgba(0, 0, 0, 0.3); border-color: #999; }
+.bizzadmin h2 .drop-container { display: inline; position: relative; margin-bottom: -1px; }
+.bizzadmin h2 .dropdown-menu { background-color: #fff; float: left; display: none; position: absolute; top: 33px; left: 0; z-index: 900; min-width: 160px; max-width: 220px; _width: 160px; padding: 0; margin: 0; zoom: 1; border: 1px solid rgba(0, 0, 0, 0.2); }
+.bizzadmin h2 .dropdown-menu.open { 
+	display: inline; 
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.bizzadmin h2 .dropdown-menu li { padding: 0; margin: 0 }
+.bizzadmin h2 .dropdown-menu a { color: #999; text-decoration: none; font-size: 16px; display: block; padding: 7px 12px; }
+.bizzadmin h2 .dropdown-menu a:hover { color: #D54E21; background-color: #f4f4f4 }
+.bizzadmin h2 a.feedback { z-index: 0; position: absolute; right: 0; top: 12px; font:normal 12px Tahoma; margin:0; padding:0; border:0; text-decoration:none; color:#000; background: #fff }
+.bizzadmin h2 a.feedback img { vertical-align:middle }
+
+.bizzadmin .introduction { padding:20px 0 }
+.bizzadmin .introduction a { font:normal 14px Verdana; color:#000000; padding:5px 10px; margin:0 10px 0 0; border:1px solid #E3E3E3; background:#F2F2F2 }
+.bizzadmin .introduction a:hover{ border:1px solid #36332F }
+.bizzadmin .introduction span.open-new-window { background:url(../images/new-window.png) no-repeat 0 bottom; padding: 0 10px; margin:0 -10px 0 0 }
+.bizzadmin .box-title { margin:0 !important; background:#EAEAEA url(../images/shortcodes/bgr-box-trans.png) no-repeat top left; border:1px solid #E3E3E3; color:#000000; text-shadow:0 1px 1px #ffffff; padding: 8px 1em 8px 1em; font:bold 14px Georgia; letter-spacing: 1px }
+.bizzadmin .box-title em.widgetsurl a { color:#ffffff }
+
+.bizzadmin .maintable { font-family:Tahoma; padding: 0; border: 0; width: 500px; margin:5px 20px 0 0; float:left }
+.bizzadmin .maintable a { text-decoration:none }
+.bizzadmin .maintable .subheading { margin:0; padding:0 }
+.bizzadmin .maintable .subheading a { font:normal 14px Georgia; background:#F7F7F7; color:#000000; display:block; margin:0; padding:8px 15px 8px 35px; border:solid #E3E3E3; border-width:0 1px 1px 1px; position:relative }
+.bizzadmin .maintable .subheading a.active{ background:#ffffff; border:solid #A5A5A5; border-width:1px 1px 0 1px; margin:-1px 0 0 0 }
+.bizzadmin .maintable .subheading a:hover{ background:#ffffff }
+.bizzadmin .maintable .subheading span { position:absolute; background:transparent url(../images/toggle-pos.png) no-repeat 0 bottom; width:6px; height:11px; top:12px; left:15px; padding:0 0 0 5px; margin:0 }
+.bizzadmin .maintable .subheading span.neg { color:#ffffff; background:transparent url(../images/toggle-neg.png) no-repeat 0 bottom; height:6px; width:11px; padding:3px 0 0 0 }
+.bizzadmin .maintable .subheading span:hover { color:#ffffff }
+.bizzadmin .maintable .subheading em.widgetsurl a { color:#000; border:0; border-bottom:1px solid; padding:0; font-size:14px }
+.bizzadmin .maintable .subheading em.widgetsurl a:hover { color:#000; background:none }
+.bizzadmin .maintable .options-box { display:none; background:#ffffff; border:solid #A5A5A5; border-width:0 1px 1px 1px; padding:0 0 15px 0; margin:0 }
+.bizzadmin .table-row { color:#000000; margin:0 15px; padding:0 }
+.bizzadmin .table-row .bottom-container { border: none; margin: 0; padding:0 }
+.bizzadmin .table-row .bottom-container p { font:normal 12px Tahoma; margin:0; padding:0 }
+.bizzadmin .table-row .bottom-container p.description { margin:0; padding:10px 0 6px 0; line-height:22px }
+.bizzadmin .break { padding:20px 0 0 0 }
+.bizzadmin span.important { display:block; background:#FFF0BF; border:1px solid #FFC95E; padding:5px 10px; margin:8px 0 5px 0 }
+.bizzadmin .space-line { clear: both; margin: 0; padding: 0; width: auto }
+.bizzadmin .maintable .table-row .text { padding:5px; background:#F4F5F8; border:1px solid #E8EBF1; margin:0 0 5px 0 }
+.bizzadmin .maintable .table-row code { background:#FFF0BF }
+.bizzadmin .maintable .table-row input, .maintable .table-row textarea { font: normal 0.923em/1.667em Consolas, "Andale Mono", "Courier New", Courier; width:453px; padding:0.333em; color:#3C3D35; background:#ffffff; border:1px solid #BFBFBF; border-top-color:#A5A5A5; border-left-color:#A5A5A5 }
+.bizzadmin .maintable .table-row input:focus, .maintable .table-row textarea:focus { border:1px solid #888888 }
+.bizzadmin .maintable .table-row select { width:453px; font-size:16px; padding:5px; color:#3C3D35; background:#fff; border:0.083em solid #BFBFBF; border-top-color:#A5A5A5; border-left-color:#A5A5A5 }
+.bizzadmin .maintable .table-row input.input_checkbox { width: 20px; margin: 0; background: transparent }
+
+/* style typographic options */
+.bizzadmin .maintable .table-row .text_q { width:132px; padding:3px; }
+.bizzadmin .maintable .table-row .select_q { width:100px; padding:5px; border:1px solid; border-color:#A5A5A5 #BFBFBF #BFBFBF #A5A5A5 }
+.bizzadmin .maintable .table-row .q1 { width:60px }
+.bizzadmin .maintable .table-row .q2 { width:105px }
+.bizzadmin .maintable .table-row .q3 { width:94px }
+.bizzadmin .maintable .table-row .q4 { width:245px }
+.bizzadmin .maintable .table-row .q5 { width:153px }
+.bizzadmin .maintable .table-row .q6 { width:205px }
+.bizzadmin .maintable .table-row .q7 { width:240px }
+.bizzadmin .maintable .table-row .q8 { width:195px }
+.bizzadmin .maintable .table-row .q9 { width:142px }
+.bizzadmin .maintable .table-row span.opt-spacing { display:block; padding:4px 0 0 0 }
+
+/* multioptions wrapper */
+.bizzadmin .wrap-dropdown { text-align:left; width:451px; height:250px; overflow:auto; border:1px solid #7F9DB9; background:#ffffff; margin:1px }
+.bizzadmin .wrap-dropdown .list_item { background:none; border:solid #E3E3E3; border-width:0 0 1px 0; padding: 4px 0 5px 5px; margin:0 }
+.bizzadmin .wrap-dropdown .list_item:hover { background:#f1f1f1 }
+.bizzadmin .wrap-dropdown .table-row{ background: none; margin:0 }
+.bizzadmin .wrap-dropdown .bottom-container { width:100%; border:0; padding:0; margin:0; background:none }
+.bizzadmin .wrap-dropdown .bottom-container .text { background:none; border:solid #E3E3E3; border-width:0 0 1px 0; padding: 4px 0 5px 5px; margin:0 }
+.bizzadmin .wrap-dropdown .bottom-container .text:hover { background:#f1f1f1 }
+.bizzadmin .wrap-dropdown .bottom-container p.description { display:none }
+
+/* multiupload wrapper */
+.bizzadmin .upc-top { margin-bottom:30px }
+.bizzadmin .upc-wrap { text-align:left; position:relative }
+.bizzadmin .upc-wrap .list_item { background:none }
+.bizzadmin .upc-wrap .list_item:hover { background:#f1f1f1; cursor: move }
+.bizzadmin .upc-wrap .table-row{ background: none; margin:0 }
+.bizzadmin .upc-wrap .bottom-container { width:100%; border:0; padding:0; margin:0; background:none }
+.bizzadmin .upc-wrap .bottom-container .text { background:none; border:none; padding:0; margin:0 }
+.bizzadmin .upc-wrap .bottom-container .text #upload-wrap { margin:0 0 5px 0 }
+.bizzadmin .upc-wrap .bottom-container p.description { display:none }
+.bizzadmin .upc-wrap .addremove { font-size:10px; position:absolute; right:-10px; bottom:-29px; padding:2px 5px; background:#F5F5F5; border:1px solid #BBBBBB }
+.bizzadmin .upc-wrap .addremove span { color:#162CCD; cursor:pointer }
+.bizzadmin .upc-wrap .addremove span.add { margin:0 10px 0 0 }
+
+.bizzadmin .submit-title { margin: -30px 0 0 0; padding:0 10px 0 0 }
+.bizzadmin .submit-title input { width: 95px }
+.bizzadmin .reset_save { display:inline; float:left; padding:0; margin:0 }
+.bizzadmin .reset { margin:0 0 0 15px }
+.bizzadmin .reset input { border:1px solid #ED0000 }
+
+ul.file-select li a { display:block; float:left; padding:5px 10px; margin:5px 10px 10px 0; background:#E3E3E3; color:#000000; border:1px solid #BBBBBB; font-size:12px; text-decoration:none }
+ul.file-select li:first-child a { background:#888888; color:#ffffff; border:1px solid #000000 }
+ul.file-select li a:hover { background:#ffffff; color:#000000 }
+ul.file-select li:first-child a:hover { background:#888888; color:#ffffff }
+.editor-area { padding:5px }
+.save_button { padding:10px 20px; margin:10px 0 20px 0 }
+
+ul.file-download { margin:0 0 15px 0 }
+ul.file-download li a { padding:3px 6px; margin:0 0 10px 0; background:#F4F4F4; color:#000000; border:1px solid #BBBBBB; font-size:11px; text-decoration:none }
+ul.file-download li a:hover { background:#ffffff; color:#000000 }
+ol.file-download { margin-bottom:15px }
+
+/* Alert boxes*/
+h3.updates_h5 { margin:30px 0 10px 0 }
+.bizzalert_true, .bizzalert_false { border-style:solid; border-width:1px; padding:0 15px }
+.bizzalert_true { background-color:#FEE9EA; border-color:#DE888A }
+.bizzalert_false { background-color:#F0FEE9; border-color:#A5D491 }
+.info-box { background-color:#FFF298; border-color:#E5D150; width:760px; padding:5px 15px; position:relative }
+.info-box h3, .info-box h5 { margin-bottom:5px }
+.info-box p { line-height:23px }
+.info-box a.btn-close { position:absolute; right:0; top:6px; width:16px; height:16px; background:url(../images/cancel_16.png) no-repeat scroll 0; padding:10px }
+
+.notice-box { background-color:#FFFFFF; border:1px solid #EFEFEF; padding:0 15px 5px 15px; margin:10px 0; clear:both }
+.notice-box h3 { margin-bottom:5px }
+.notice-box p { line-height:23px }
+.notice-box .layout-info { height:312px; background:url(../images/layout-info.png) no-repeat; margin:0; padding:0 }
+  
+/* upload styling */
+.bizzadmin #upload-wrap { position:relative; padding:0; height:22px }
+.bizzadmin #upload-wrap .upload_button { position:absolute; top:0; left:0; width:80px; height:22px; background:url(../images/btn-choose-file.png) no-repeat scroll 0; cursor:pointer; font-size:11px; padding:0 0 0 7px; line-height:22px }
+.bizzadmin #upload-wrap .upload_button:hover { cursor:pointer }
+.bizzadmin #upload-wrap .upload_text_input { position:absolute; top:0; left:90px; height:22px; width:335px; margin:0 5px 0 0; }
+.bizzadmin #upload-wrap a.img-preview img { position:absolute; top:0; right:0; vertical-align:middle; border:1px solid #A5A5A5; }
+
+/* tooltip styling */
+.bizzadmin .table-row .top-container { color:#333333; font-size:11px; border: none; padding:6px 0 0 0; margin:0; line-height:25px }
+.bizzadmin .table-row .top-container img { vertical-align:middle; margin:0 0 0 5px; padding:5px }
+.bizzadmin .table-row .top-container .name { display:inline; color:#555555; margin:0 0 0 2px } 
+.bizzadmin .table-row .top-container .bubbleInfo { position:relative; display:inline; width:70px }
+.bizzadmin .table-row .top-container .trigger { color:#162CCD; cursor:pointer }
+.bizzadmin .table-row .top-container .trigger:hover { cursor:pointer }
+.bizzadmin .table-row .top-container .popup { position:absolute; bottom:25px; right:-30px; display:none; z-index:50; background:#EEEFF2; border:1px solid #828EA7; padding:20px; width:300px; line-height:20px; font-size:11px; color:#333333; }
+
+/*---:[ column configuration examples ]:---*/
+#bizz_options .options_column { width: 305px; margin-right: 30px; float: left }
+	#bizz_options .options_column.last { margin-right: 0 }
+	#bizz_options h5 { font-weight:normal; font-size:11px; margin:20px 0 10px 0 }
+
+/*---:[ widgets reloaded ]:---*/
+.form-table th{width:20%;font-weight:700}
+.metabox-holder .column-1{width:100%}
+.metabox-holder .column-2{float:left;width:49%}
+.metabox-holder .column-3{float:right;width:49%}
+.columns-2{overflow:hidden;float:left;width:48%}
+.columns-3{overflow:hidden;float:left;width:31%;margin-right:3.5%}
+.column-last{float:right;margin-right:0}
+.bizz-widget-controls label{font-size:11px}
+.bizz-widget-controls small.section{font-size:11px;display:block;font-weight:700;margin:3px 0 6px;padding:0}
+.columns-2 input.widefat,.columns-2 select.widefat{width:99%}
+.columns-3 select.widefat{width:98.5%}
+.bizz-widget-controls select[multiple=multiple]{width:100%;height:8em!important}
+input.mediumfat{float:right;width:50%}
+select.mediumfat{float:right;min-width:50%}
+input.smallfat{float:right;width:66px}
+select.smallfat{float:right;min-width:66px}
+hr.div { border: none; border-top: 1px dotted #ddd; display: block; margin: 20px 0 12px 0; clear: both }
+
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0 }
+.clearfix:after { clear: both; content: ' '; display: block; font-size: 0; line-height: 0; visibility: hidden; width: 0; height: 0 }
+* html .clearfix, *:first-child+html .clearfix {	zoom: 1 }
+.spb { margin-bottom:5px }
+
+span.richtext, span.richon { color:#21759B; margin:0 0 0 296px }
+span.richtext:hover, span.richon:hover { text-decoration:underline; color:#FF0000 }
+span.translate { color:#21759B; margin:0 }
+span.translate:hover { text-decoration:underline; color:#FF0000 }
+.widget-content p .tog { display:none }
+
+span.titicon { color:#21759B; margin:0 0 0 350px }
+span.titicon:hover { text-decoration:underline; color:#FF0000 }
+.wid_icon, .wid_logo_link, .wid_toggle { display:none }
+.wid_upload_label { padding:0; margin:0; line-height:24px }
+.wid_upload_wrap { font-size:12px; margin:0 0 10px 0 }
+.wid_upload_input {  }
+.wid_upload_button { width:80px; height:22px; background:url(../images/btn-choose-file.png) no-repeat scroll 0; cursor:pointer; font-size:11px; padding:0 0 0 7px; margin:5px 0; line-height:22px; font-family:sans-serif }
+
+.column-faq_category, .column-faq_tag, .column-folio_category, .column-folio_tag { width:15%; }
+
+/*=== BORDER-RADIUS ===*/
+.bizzadmin .maintable .table-row input.text_q, .bizzadmin .upc-wrap .addremove, #widget-frame a.button, .bizzadmin .submit-title input { 
+    border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;
+}
+.bizzadmin #upload-wrap a.img-preview img, .bizzadmin .table-row .top-container .popup, .boxed { 
+    border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
+}
+.bizzadmin .save-popup, .bizzadmin .loading-popup { 
+    border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;
+}
+
+/*---:[ layouts control ]:---*/
+
+/*=== Widget control styling ===*/
+#widget-frame { margin-left:330px; margin-top:10px }
+div.widget-liquid-left{ display:inline; width:310px; margin-left:-330px; margin-bottom:30px; clear:both; float:left; padding-top:19px }
+div.liquid-left-disabled #available-widgets, div.liquid-left-disabled #inactive-widgets { opacity: 0.5; filter: alpha(opacity=50) }
+div#widgets-left{ clear:both; padding:0 5px 0 0; margin:0 }
+div#widgets-left .widget-holder{ padding:10px 15px }
+div.widget-liquid-right{ float:left; min-width:100% }
+div.widget-liquid-right .widgets-sortables{ padding:15px }
+div.liquid-right-disabled .widget-control-actions .alignleft { display: none }
+div#widgets-right{ position:relative; margin-right:20px; margin-bottom:20px; width:100% }
+div#available-widgets .widget-holder{ padding:7px 5px 0 }
+div#widget-list{ max-height:345px; overflow:auto; margin:0 0 15px 0 }
+#icon-bizz-layout { background: transparent url(../../../../../wp-admin/images/icons32.png) no-repeat -11px -5px; margin-top: 0 }
+
+.layouts-toggle{ padding:0 0 3px 0; float:right }
+.layouts-toggle a.master_toggle { font-family: Tahoma; font-size: 11px }
+span.current-template {
+	font-family: Tahoma; 
+	font-size: 11px;
+	margin:0 0 0 5px; 
+	float: left 
+}
+span.c-edit { color:#999999; font-weight:normal }
+span.t-edit { background:#FFFBCC; color:#666666; font-weight:normal }
+a.t-preview { margin:0 0 0 5px }
+
+div#widgets-right .container-area .container-name { cursor: move; position: relative }
+.pre32 div#widgets-right .container-name {
+	background-color: #aaa;
+	background-image: url(../../../../../wp-admin/images/ed-bg.gif);
+	text-shadow: #fff 0 1px 0;
+	color:#000000;
+	border-color: #DFDFDF;
+}
+.pre32 div#widgets-right .container-arrow { background: transparent url(../../../../../wp-admin/images/menu-bits.gif) no-repeat scroll left -109px }
+div#widgets-right .sortme-disabled .container-name { cursor: default }
+div#widgets-right .disabled-box .container-name { background: #F9F9F9 }
+div#widgets-right .container-area .container-arrow { cursor: pointer }
+div#widgets-right .container-area h3 .title-action { position: absolute; right: 0; font-weight:normal; font-size:11px; margin:0 15px 0 0; padding: 0; display: none }
+div#widgets-right .container-area h3:hover .title-action { display: inline }
+div#widgets-right .container-area .widget-holder {
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-khtml-border-bottom-right-radius:8px;
+	-khtml-border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-style:none solid solid; 
+	border-width:0 1px 1px; 
+	padding:25px 10px 15px 10px;
+	background-color: #F9F9F9;
+	border-color: #DFDFDF 
+}
+
+div.widget-liquid-right .widget { width:100% }
+div.widget-liquid-right .ui-sortable-helper,
+div.widget-liquid-right .ui-draggable { width:250px }
+div.widget-placeholder{ height:26px; width:100%; border-style:dashed; border-width:1px; margin:0 auto 20px }
+div.widgets-holder-wrap{ margin:10px 0 10px }
+div.inactive p.description{ margin:0 0 15px 0 }
+div.inactive{ padding-top:2px }
+
+div#widgets-right .parent { border:1px solid #F9C17C }
+div#widgets-right .closed .widget-top { background:#F9F9F9 }
+
+#widgets-left #template-menu .sidebar-name {
+	text-shadow: #3F3F3F 0 -1px 0;
+	background-color: #777;
+	border-color: #333;
+	background-image: -ms-linear-gradient(bottom, #6D6D6D, gray);
+	background-image: -moz-linear-gradient(bottom, #6D6D6D, gray);
+	background-image: -o-linear-gradient(bottom, #6D6D6D, gray);
+	background-image: -webkit-gradient(linear,left bottom,left top,from( #6D6D6D),to( gray));
+	background-image: -webkit-linear-gradient(bottom, #6D6D6D, gray);
+	background-image: linear-gradient(bottom, #6D6D6D, gray);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#widgets-left #template-menu .sidebar-name h3 { color: #ffffff !important }
+.pre32 #widgets-left #template-menu .sidebar-name-arrow { background-image: url(../../../../../wp-admin/images/widgets-arrow.gif); background-position-x: 0px; background-position-y: -1px; }
+
+.half,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.full {
+	display: inline;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+}
+.full.first { margin-top:0 }
+.full { width:96% }
+.half { width:46% }
+.full .half { width:48% }
+.third { width:29.33% }
+.full .third { width:30.80% }
+.fourth { width:21% }
+.full .fourth { width:22% }
+.fifth { width:16% }
+.full .fifth { width:16.9% }
+.sixth { width:12.66% }
+.full .sixth { width:13.4% }
+.alpha { margin-left:0; margin-right:2% }
+.omega { margin-right:0; margin-left:2% }
+.gama { margin-left:0; margin-right:0; width:100% }
+.widgets-holder-wrap .widgets-holder-wrap { margin-top:0 }
+
+.bizz-menu-separator {
+	background: transparent url(../images/menu-arrow-left.gif) no-repeat left center;
+	height: 11px;
+	cursor: w-resize;
+	padding: 0;
+	margin: 0;
+}
+.foldedd .bizz-menu-separator {
+	background: transparent url(../images/menu-arrow-right.gif) no-repeat right center;
+	padding-top:530px;
+	border-left:1px solid #E6E6E6;
+}
+#widget-frame.foldedd { margin-left:45px }
+#widget-frame.foldedd .widget-liquid-left { width:45px; margin-left:-45px }
+
+#revision-list{ padding:0 5px 20px 5px }
+#revision-list a { line-height:23px }
+
+/*=== Menu tabs ===*/
+
+/* Tabs */
+.menu-tabs ul ul { margin:4px 0 0 10px }
+.menu-tabs ul ul ul { display:none }
+li.key_ajax { background:url(../images/ajax-loader.gif) no-repeat 25px 2px !important; padding:6px 0 !important }
+.menu-tabs a { text-decoration:none }
+.menu-tabs a.active { text-decoration:none; color:#000; font-weight:bold }
+.menu-tabs ul li { font-size:14px }
+.menu-tabs ul li li { font-size:13px }
+.menu-tabs ul li li li { font-size:12px }
+.menu-tabs a:hover { background: url(../images/list-bullet-trans.png) no-repeat center right; padding-right:15px }
+
+/* Treeview */
+.treeview, .treeview ul { padding: 0; margin: 0; list-style: none; }
+.treeview .hitarea { background: url(../images/treeview/treeview-default.gif) -64px -25px no-repeat; height: 16px; width: 16px; margin-left: -16px; margin-top:2px; float: left; cursor: pointer; }
+* html .hitarea { display: inline; float:none; } /* fix for IE6 */
+.treeview .paginateme { margin: 5px 0 5px 25px; font-weight:bold; }
+.treeview .paginateme.linkedp { cursor: pointer; font-weight:normal; color:#21759B }
+.treeview .paginateme.linkedp:hover { color:#D54E21 }
+.treeview li { margin: 0; padding: 3px 0pt 3px 16px; }
+.treeview a.selected { text-decoration:none; color:#000; font-weight:bold }
+#treecontrol { margin: 1em 0; display: none; }
+.treeview .hover { color: red; cursor: pointer; }
+.treeview li { background: url(../images/treeview/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(../images/treeview/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+.treeview .placeholder { background: url(../images/treeview/ajax-loader.gif) 0 0 no-repeat; height: 16px; width: 16px; display: block; }
+.treeview .ajax-loader { background: url(../images/treeview/ajax-loader.gif) 0 0 no-repeat; height: 16px; width: 16px; margin: 10px 0 5px 30px; display:none }
+
+/*---:[ RTL support ]:---*/
+body.rtl .bizzadmin h2 a.feedback { right: auto; left: 0 }
+body.rtl .bizzadmin h2 .dropdown-menu { float: right; position: absolute; top: 33px; right: 0 }
+body.rtl .bizzadmin .maintable { margin: 5px 0 0 20px; float: right }
+body.rtl .bizzadmin .box-title { text-align: right }
+body.rtl .bizzadmin .submit-title { float: left; padding: 0 0 0 10px }
+body.rtl .bizzadmin .reset_save { float: right; margin: 0 0 0 10px }
+body.rtl .bizzadmin .table-row .top-container .name { float: right }
+body.rtl .bizzadmin .table-row .top-container .bubbleInfo { float: left }
+body.rtl ul.file-select li a { float: right; margin: 5px 0 10px 10px }
+body.rtl #widget-frame { margin-left: 20px; margin-right: 330px }
+body.rtl div.widget-liquid-left{ display:inline; margin-left: 0; margin-right:-330px; clear:left; float:right }
+body.rtl div.widget-liquid-right{ float:right; min-width:100% }
+body.rtl span.current-template { margin: 0 5px 0 0 }
+body.rtl a.t-preview { margin: 0 5px 0 0; float: left }
+body.rtl div#widgets-right .container-area h3 .title-action { left: 0; right: auto; margin: 0 0 0 5px }
+body.rtl #bizz_options .options_column { margin: 0 0 0 30px; float: right }
+body.rtl .bizzadmin #upload-wrap .upload_button { padding: 0 0 0 7px; text-align: left }
+

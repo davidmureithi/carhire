@@ -1,0 +1,40 @@
+
+/* meta box styles on the posting screen */
+table.bizz_metabox tr { border-bottom: 1px dotted #ccc; padding-top: 10px; padding-bottom: 10px; }
+table.bizz_metabox th { font-weight: bold; color: #333; }
+table.bizz_metabox th label { margin: 5px 0; display:block;}
+p.bizz_metabox_description { color: #999; font-size: 11px; margin: 2px 0 !important;}
+span.bizz_metabox_description { color: #999; font-size: 11px; }
+input.bizz_text_small { width: 100px; margin-right: 15px;}
+input.bizz_text_time { width: 40px; margin-right: 15px;}
+input.bizz_text_money { width: 90px; margin-right: 15px;}
+input.bizz_text_medium { width: 230px; margin-right: 15px;}
+input.bizz_timepicker { margin-right: 15px;}
+table.bizz_metabox input, table.bizz_metabox textarea { font-size:11px; padding: 6px; }
+table.bizz_metabox li { font-size: 11px; }
+table.bizz_metabox ul { padding-top: 2px; }
+table.bizz_metabox select { font-size: 12px; height: 30px; padding: 5px; }
+table.bizz_metabox input:focus, table.bizz_metabox textarea:focus { background: #fffff8;}
+.bizz_metabox_title { margin: 0 0 5px 0; padding: 5px 0 0 0; font-size: 18px; font-weight: normal; font-family: Georgia, Arial, Script; }
+.bizz_radio_inline { padding: 4px 0 0 0; }
+.bizz_radio_inline_option {display: inline; padding-right: 18px;}
+table.bizz_metabox input[type="radio"] { margin-right: 4px; }
+table.bizz_metabox input[type="checkbox"] { margin-right: 6px; }
+table.bizz_metabox .mceLayout {border:1px solid #DFDFDF !important;}
+table.bizz_metabox .mceIframeContainer { background: #FFF; }
+table.bizz_metabox .wp-editor-wrap { width: 97%; }
+table.bizz_metabox .meta_mce { width: 97%; }
+table.bizz_metabox .meta_mce textarea { width: 100%; }
+table.bizz_metabox .upload_button {  margin: 0 0 0 5px; }
+table.bizz_metabox .bizz_upload_status {  margin: 10px 0 0 0; }
+table.bizz_metabox .bizz_upload_status .img_status {  position: relative; }
+table.bizz_metabox .bizz_upload_status .img_status img { border:1px solid #DFDFDF; background: #FAFAFA; max-width:350px; padding: 5px; -moz-border-radius: 2px; border-radius: 2px;}
+table.bizz_metabox .bizz_upload_status .img_status .remove_file_button { text-indent: -9999px; background: url('../images/ico-remove.png'); width: 16px; height: 16px; position: absolute; top: -8px; left: -8px;}
+table.bizz_metabox input[readonly] { background-color: #EEE }
+table.bizz_metabox input.counter { margin:4px 4px 4px 0; padding: 5px; text-align: center; }
+
+div.time-picker{ position: absolute; height: 190px; width: 100px !important; overflow: auto; background: #fff; border: 1px solid #aaa; z-index: 99; margin: 0 }
+div.time-picker-12hours{ width: 6em }
+div.time-picker ul{ list-style-type: none; margin: 0; padding: 0 }
+div.time-picker li{ cursor: pointer; height: 10px; font-size: 12px; padding: 4px 3px }
+div.time-picker li.selected{ background: #0063ce; color: #fff }

@@ -1,0 +1,26 @@
+body { 
+	background-color: #EEEEEE;
+}
+.widget h3.widget-title { 
+	color: #D80000;
+}
+.widget .nav-menu {
+	
+}
+.bookwrap { 
+	background: #FFF9F9; 
+	border: 1px solid #EA4D4B; 
+}
+.step_wrapper legend{ 
+	border-color: #EA4D4B;
+}
+.steps_tabs li .number { 
+	background-color: #FFF9F9; 
+	border: 1px solid #EA4D4B;
+}
+.steps_tabs li.selected .number { 
+	background-color: #EA4D4B;
+}
+.clist li { 
+	border-bottom: 1px solid #EA4D4B;
+}

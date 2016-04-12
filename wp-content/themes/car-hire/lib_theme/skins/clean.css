@@ -1,0 +1,53 @@
+/* CLEAN skin */
+
+body { 
+	background: #fff;
+}
+a, a:visited { 
+	color: #0044DF;
+}
+.widget h3.widget-title { 
+	color: #000;
+	background: none;
+	padding-left: 0;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: Arial;
+}
+.widget .nav-menu {
+	background-color: #F5F5F5;
+}
+.widget .nav-menu a  { 
+	color: #000;
+}
+.widget .nav-menu li.current-menu-item a, .widget .nav-menu li li.current-menu-item a, .widget .nav-menu li.current-menu-item a span.desc  { 
+	color: #D61615;
+}
+.widget .nav-menu li:hover { 
+	background-color: #E5E5E5;
+}
+.bookwrap { 
+	background: #F5F5F5; 
+	border: 1px solid #313131; 
+}
+.step_wrapper legend{ 
+	border-color: #313131;
+}
+.steps_tabs li .number { 
+	background-color: #F5F5F5; 
+	border: 1px solid #313131;
+}
+.steps_tabs li.selected .number { 
+	background-color: #313131;
+	color: #fff;
+}
+.clist li { 
+	border-bottom: 1px solid #313131;
+}
+#header_area {
+	
+}
+
+.contact-info span.pmeta { 
+	color: #737373;
+}

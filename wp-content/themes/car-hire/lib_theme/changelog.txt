@@ -1,0 +1,11 @@
+*** BizzThemes Theme Changelog **
+
+LEGEND
+    * [release]
+	* [feature]
+	* [fix]
+	* [improved]
+	* [deprecated]
+	
+2012.08.23 - version 1.0.0
+	* [release]		Initial theme release.

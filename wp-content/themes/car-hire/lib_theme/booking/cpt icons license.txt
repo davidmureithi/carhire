@@ -1,0 +1,40 @@
+Copyright © 2010 Yusuke Kamiyamane. All rights reserved.
+The icons are licensed under a Creative Commons Attribution 3.0 license.
+
+Modified by: http://randyjensenonline.com/thoughts/wordpress-custom-post-type-fugue-icons/
+
+If you can’t or don’t want to provide a link back, please purchase a royalty-free license.
+http://p.yusukekamiyamane.com/
+
+I’m unavailable for custom icon design work. But your suggestions are always welcome!
+p@yusukekamiyamane.com
+
+    * geotag 
+
+    Copyright © Geotag Icon Project. All rights reserved.
+    Geotag icon is licensed under a Creative Commons Attribution-Share Alike 3.0 license or LGPL. 
+
+    * language 
+
+    Copyright © Language Icon Project. All rights reserved.
+    Language icon is licensed under a Creative Commons Attribution-Share Alike 3.0 license. 
+
+    * open-share 
+
+    Copyright © Open Share Icon Project. All rights reserved.
+    Open Share icon is licensed under a Creative Commons Attribution-Share Alike 3.0 license. 
+
+    * opml 
+
+    Copyright © OPML Icon Project. All rights reserved.
+    OPML icon is licensed under a Creative Commons Attribution-Share Alike 2.5 license. 
+
+    * share 
+
+    Copyright © Share Icon Project. All rights reserved.
+    Share icon is licensed under a GPL or LGPL or BSD or Creative Commons Attribution 2.5 license. 
+
+    * xfn 
+
+    Copyright © Wolfgang Bartelme. All rights reserved.
+    XFN icon is licensed under a Creative Commons Attribution-Share Alike 2.5 license. 

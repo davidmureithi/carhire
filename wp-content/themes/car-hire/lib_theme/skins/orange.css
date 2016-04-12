@@ -1,0 +1,37 @@
+body { 
+	background-color: #F9F9F9;
+}
+a, a:visited { 
+	color: #FF3D00;
+}
+.widget h3.widget-title { 
+	color: #0A3C91;
+}
+.widget .nav-menu {
+	
+}
+.bookwrap { 
+	background: #FFECCE; 
+	border: 1px solid #FE9900; 
+}
+.step_wrapper legend{ 
+	border-color: #FE9900;
+}
+.steps_tabs li .number { 
+	background-color: #FFECCE; 
+	border: 1px solid #FE9900;
+}
+.steps_tabs li.selected .number { 
+	background-color: #FE9900;
+	color: #fff;
+}
+.clist li { 
+	border-bottom: 1px solid #FE9900;
+}
+#header_area {
+	background-color: #FFECCE;
+}
+
+.contact-info span.pmeta { 
+	color: #FE9900;
+}
